@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+<style>
+
+</style>
+  <head>
+      <!-- Bootstrap core CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <title>About Me</title>
+  </head>
+  <body>
+      <div class = "container-fluid">
+            <h1>Dazong Chen</h1>
+            <p class = "card bg-light">I am an Electrical Engineering student. I am willing to take things as they are. I love nature and landscape photography. I am enrolled in CS classes because I like programming and making
+            applications.</p>
+
+            <h1>My Professional Profile</h1>
+            <a href="https://github.com/sunny-simon" class="btn btn-outline-secondary">Dazong's Github</a>
+            <br><img src="Dazong.jpg" class="rounded-circle" alt="Dazong Chen" width="700" height="500">
+
+            <!--My Favorite Project-->
+            <h1>My Favorite Project</h1>
+            <table class = "table table">
+                <tr>
+                    <th style="text-align:left;">#</th>
+                    <th style="text-align:left;">Name of Projects</th>
+                    <th>Technologies Used</th>
+                </tr>
+                <tr>
+                    <th style="text-align:left;">1</th>
+                    <td>Controller Area Network</td>
+                    <td>Embedded C</td>
+                </tr>
+                <tr>
+                    <th style="text-align:left;">2</th>
+                    <td>Inverted Pendulum</td>
+                    <td>Matlab</td>
+                </tr>
+                <tr>
+                    <th style="text-align:left;">3</th>
+                    <td>Robot Followers</td>
+                    <td>Embedded C</td>
+                </tr>
+            </table>
+
+            <!--Travelled Country-->
+            <div class = "row">
+                <div class = "col-5">
+                    <div id = "country">
+                        <div class = "card">
+                            <div class = "card-header">
+                                <a class = "card-link" data-toggle = "collapse" href = "#countryList">
+                                    Countries Travelled
+                                </a>
+                            </div>
+                            <div id = "countryList" class = "collapse multi-collapse" data-parent = "#country">
+                                <div class = "card-body">
+                                    <table class = "table">
+                                        <tr><td>1.USA</tr></td>
+                                        <tr><td>2.Japan</tr></td>
+                                        <tr><td>1.Iceland</tr></td>
+                                        <tr><td>1.Thailad</tr></td>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Interests-->
+                <div class = "col-5">
+                    <div id = "interests">
+                        <div class = "card">
+                            <div class = "card-header">
+                                <a class = "card-link" data-toggle = "collapse" href = "#interstsList">
+                                    Interests
+                                </a>
+                            </div>
+                            <div id = "interstsList" class = "collapse multi-collapse" data-parent = "#interests">
+                                <div class = "card-body">
+                                    <table class = "table">
+                                        <tr><td>Phtotgraphy</tr></td>
+                                        <tr><td>Travelling</tr></td>
+                                        <tr><td>Delicious Food</tr></td>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          </div>
+          <br>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              Fun Activity
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Fun activity</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                          </button>
+                      </div>
+                      <div class="modal-body">
+                         Every Thursday night, in Fleming, Super Smash Bros Tournament.✽-(ˆ▽ˆ)/✽✽\(ˆ▽ˆ)-✽ 
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+     </div>
+</body>
+
+</html>
